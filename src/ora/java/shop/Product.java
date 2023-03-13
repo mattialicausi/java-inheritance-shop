@@ -10,6 +10,7 @@ public class Product {
     private String description;
     private BigDecimal price;
     private BigDecimal iva;
+    private boolean fidelity;
 
     public Product(String name, String description, BigDecimal price, BigDecimal iva) {
         this.name = name;
@@ -65,6 +66,7 @@ public class Product {
         BigDecimal ivaSulPrezzo = price.multiply(iva);
         return price.add(ivaSulPrezzo).setScale(2, RoundingMode.HALF_EVEN);
     }
+
 
     @Override
     public String toString() {

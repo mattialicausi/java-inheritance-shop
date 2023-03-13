@@ -36,9 +36,12 @@ public class Smarphone extends Product{
         return IMEI;
     }
 
+    // sconto fedeltà
+
+
     @Override
     public String toString() {
         System.out.print("IMEI: " + IMEI + "memory: " + memoryGB);
-        super.toString();
+        return super.toString();
     }
 }

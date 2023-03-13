@@ -19,5 +19,20 @@ public class Main {
 
 
 
+        // SMARTPHONE
+        Smarphone s1 = new Smarphone("Iphone", "apple california", new BigDecimal("899.99"), new BigDecimal("0.22"), 256);
+        System.out.println(s1);
+
+        //TELEVISION
+        Television t1 = new Television("Samsung", "di qualità", new BigDecimal("1200.00"), new BigDecimal("0.22"), 80, true);
+        System.out.println(t1);
+
+        //Headphones
+
+        Headphones h1 = new Headphones("Pioneer", "cuffie buone", new BigDecimal("99.99"), new BigDecimal("0.22"), "white", true);
+        System.out.println(h1);
+
+
+
     }
 }

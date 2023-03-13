@@ -38,7 +38,7 @@ public class Smarphone extends Product{
 
     @Override
     public String toString() {
-        System.out.println("IMEI: " + IMEI + "memory: " + memoryGB);
-        return super.toString();
+        System.out.print("IMEI: " + IMEI + "memory: " + memoryGB);
+        super.toString();
     }
 }

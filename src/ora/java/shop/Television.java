@@ -34,7 +34,7 @@ public class Television extends Product{
 
     @Override
     public String toString() {
-        System.out.println("Dimensione: " + dimension + "smart: " + smart);
+        System.out.print("Dimensione: " + dimension + "smart: " + smart);
         return super.toString();
     }
 }

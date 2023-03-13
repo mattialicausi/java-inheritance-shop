@@ -36,7 +36,6 @@ public class Headphones extends Product{
 
     @Override
     public String toString() {
-        System.out.print("color: " + color + "wireless: " + wireless);
-        return super.toString();
+        return "Name: " + getName() + "Descrizione: " + getDescription() + "Prezzo: " + getPrice() + "Iva: " + getIva() + "Code: " + getCode() + "color: " + color + "wireless: " + wireless;
     }
 }
